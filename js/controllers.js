@@ -20,6 +20,6 @@ controllers.controller('paliWordController', ['$scope', '$routeParams', '$http',
     if (lowerWord === reverseWord) {
         $scope.wordAnswer = 'Your word is a Palindrome!!!';
     } else {
-        $scope.wordAnswer = "Nope. Not this time...";
+        $scope.wordAnswer = "Nope. Try Again...";
     }
 }]);
